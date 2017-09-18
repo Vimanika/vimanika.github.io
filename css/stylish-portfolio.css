@@ -23,6 +23,19 @@ body {
     vertical-align: middle;
 }
 
+.text-vertical-down {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.text-vertical-down h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
 .text-vertical-center h1 {
     font-size: 4.5em;
     font-weight: 700;
@@ -170,6 +183,7 @@ hr.small {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 .teaser__video {
     position: absolute;
